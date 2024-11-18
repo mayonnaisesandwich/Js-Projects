@@ -1,0 +1,49 @@
+.timer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+}
+.outer{
+    width: 100%;
+    justify-content: center;
+}
+.buttons{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 15px;
+    border: none;
+    background-color: darkgrey;
+    color: black;
+    
+    font-size: 20px;
+}
+#min{
+    background-color: rgb(255, 194, 150);
+    padding: 5px;
+    justify-content: center;
+    border-radius: 25px;
+}
+#sec{
+    background-color: rgb(255, 194, 150);
+    padding: 5px;
+    justify-content: center;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: rgb(197, 197, 197);
+    font-weight: bold;
+}
+button:active{
+    font-weight: bolder;
+}

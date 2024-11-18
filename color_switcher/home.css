@@ -1,0 +1,40 @@
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#random{
+    background-color: transparent;
+    
+    
+    border-width: 5px;
+}
+#whole{
+    background-color: aqua;
+}
+div{
+    display: grid;
+    width : 100%;
+    height : 100%;
+    justify-content: center;
+    border: 5px;
+}
+button{
+    padding: 10px;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 40px;
+    border: transparent;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    font-size:larger;
+}
