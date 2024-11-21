@@ -33,3 +33,4 @@ function change(text){
         page.style.backgroundColor = "rgb(239, 255, 211)" 
     }
 }
+//const time = setInterval(btn.onclick,100)
